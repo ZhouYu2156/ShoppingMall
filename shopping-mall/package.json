@@ -1,6 +1,6 @@
 {
-  "name": "hello-vue3",
-  "version": "0.0.0",
+  "name": "shopping-mall",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
