@@ -58,8 +58,8 @@ export function FibonacciSequence (position: number) {
     }
 }
 /** 斐波那契数列（递归版本） */
-export function FibonacciSequenceRecursion (position: number) {
-    if (position < 0) throw 'Position is cannot less than zero;';
+export function FibonacciSequenceRecursion (position: number): number {
+    if (position < 0) throw "Position number cannot less than zero!";
     else if (position === 0) return 0;
     else if (position === 1 || position === 2) return 1;
     else return FibonacciSequenceRecursion(position - 1) + FibonacciSequenceRecursion(position - 2);
